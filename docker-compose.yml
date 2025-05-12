@@ -7,7 +7,7 @@ services:
       dockerfile: docker/apache/Dockerfile
     container_name: webshop_apache
     ports:
-# 80:80 -> eerste poort 80 is op je lokale machine, tweede poort 80 is intern in de container
+      # 80:80 -> eerste poort 80 is op je lokale machine, tweede poort 80 is intern in de container
       - "80:80"
     volumes:
       - ./dev:/var/www/html
