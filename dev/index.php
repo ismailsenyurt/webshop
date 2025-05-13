@@ -33,27 +33,27 @@ $products = Database::getAll();
 
       <div class="uk-grid">
          <section class="uk-width-1-5">
-            <h4>Categoriën</h4>
+            <!-- <h4>Categoriën</h4> -->
             <hr class="uk-divider" />
             <div>
-               <input class="uk-checkbox" id="chickens" type="checkbox" name="chickens" />
-               <label for="chickens">Wedstrijd kippen</label>
+               <!-- <input class="uk-checkbox" id="chickens" type="checkbox" name="chickens" />
+               <label for="chickens">Wedstrijd kippen</label> -->
             </div>
             <div>
-               <input class="uk-checkbox" id="paint" type="checkbox" name="paint" />
-               <label for="paint">Verf</label>
+               <!-- <input class="uk-checkbox" id="paint" type="checkbox" name="paint" />
+               <label for="paint">Verf</label> -->
             </div>
             <div>
-               <input class="uk-checkbox" id="machines" type="checkbox" name="machines" />
-               <label for="machines">Broedmachines</label>
+               <!-- <input class="uk-checkbox" id="machines" type="checkbox" name="machines" />
+               <label for="machines">Broedmachines</label> -->
             </div>
             <div>
-               <input class="uk-checkbox" id="hokken" type="checkbox" name="hokken" />
-               <label for="hokken">Hokken</label>
+               <!-- <input class="uk-checkbox" id="hokken" type="checkbox" name="hokken" />
+               <label for="hokken">Hokken</label> -->
             </div>
          </section>
          <section class="uk-width-4-5">
-            <h4 class="uk-text-muted uk-text-small">Gekozen categorieën: <span class="uk-text-small uk-text-primary">Alle</span></h4>
+            <!-- <h4 class="uk-text-muted uk-text-small">Gekozen categorieën: <span class="uk-text-small uk-text-primary">Alle</span></h4> -->
             <div class="uk-flex uk-flex-home uk-flex-wrap">
                <?php foreach ($products as $product) : ?>
                   <!-- PRODUCT KAART 1 -->
