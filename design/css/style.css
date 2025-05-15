@@ -1,5 +1,5 @@
 .logo {
-   height: 40px;
+   height: 100px;
 }
 
 .product-image {
@@ -9,7 +9,7 @@
 
 .product-card, .product-card-p {
    text-decoration: none !important;
-   color: #666;
+   color: #0008e8;
 }
 
 .uk-card-home, .uk-card-body-home {
@@ -43,7 +43,7 @@
 }
 
 .uk-link-cart-trash:hover {
-   color: #760a1e !important;
+   color: #29d619 !important;
 }
 
 .uk-text-medium {
@@ -70,5 +70,5 @@
 }
 
 .order-confirm-table tbody tr:last-child, tfoot tr:nth-child(2) {
-   border-bottom: 3px solid #e5e5e5 !important;
+   border-bottom: 3px solid #000000 !important;
 }
